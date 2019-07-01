@@ -1,0 +1,29 @@
+{
+    "name": "akashdevs/laravel-code-log-enhancher",
+    "description": "this is just a simple log package",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.9@dev",
+        "monolog/monolog": "^2.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "akashaj009",
+            "email": "akashajaj09@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Akashdevs\\LaravelLogEnhancer\\" : "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Akashdevs\\LaravelLogEnhancer\\LaravelLogEnhancerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
